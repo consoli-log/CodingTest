@@ -1,5 +1,7 @@
 package com.soli.codingtest.programmers;
 
+import com.soli.codingtest.programmers.level0.CurseNumberThree;
+
 /**
  * 프로그래머스 - 문제명
  * 난이도: 🤍 Level 0
@@ -9,18 +11,14 @@ package com.soli.codingtest.programmers;
 
 public class ProgrammersTemplate {
 
-    public boolean solution(String[] tmp) {
-        boolean answer = true;
-
-        // 문제 풀이
-
-        return answer;
+    public int solution(int answer) {
+        // TODO: 구현
+        return 0;
     }
 
     public static void main(String[] args) {
         ProgrammersTemplate pt = new ProgrammersTemplate();
-        String[] input = {"1", "2", "3"};
-        boolean result = pt.solution(input);
+        int result = pt.solution(15); // 예시 입력
         System.out.println("결과: " + result);
     }
 
