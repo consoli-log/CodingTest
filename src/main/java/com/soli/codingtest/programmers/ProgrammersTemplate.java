@@ -1,7 +1,5 @@
 package com.soli.codingtest.programmers;
 
-import com.soli.codingtest.programmers.level0.CurseNumberThree;
-
 /**
  * 프로그래머스 - 문제명
  * 난이도: 🤍 Level 0
