@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 프로그래머스 - 옹알이 (1)
  * 난이도: 🤍 Level 0
- * 유형: 문자열
+ * 유형: 문자열 / 구현
  * 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120956
  */
 public class Babbling {
