@@ -16,8 +16,8 @@ public class ProgrammersTemplate {
 
     public static void main(String[] args) {
         ProgrammersTemplate pt = new ProgrammersTemplate();
-        int result = pt.solution(15); // 예시 입력
-        System.out.println("결과: " + result);
+
+        System.out.println(pt.solution(0));
     }
 
 }

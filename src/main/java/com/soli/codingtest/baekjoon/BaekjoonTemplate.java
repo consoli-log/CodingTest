@@ -12,11 +12,11 @@ import java.io.IOException;
 public class BaekjoonTemplate {
 
     public static void main(String[] args) throws IOException {
-        // 입력 받기
+        // 입력
 
-        // 문제 풀이
+        // 풀이
 
-        // 출력하기
+        // 출력
     }
 
 }
