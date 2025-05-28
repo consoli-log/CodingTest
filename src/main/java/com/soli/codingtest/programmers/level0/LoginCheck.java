@@ -6,6 +6,7 @@ package com.soli.codingtest.programmers.level0;
  * 유형: 문자열 / 배열 / 조건문
  * 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120883
  */
+
 public class LoginCheck {
 
     public String solution(String[] id_pw, String[][] db) {
