@@ -32,9 +32,9 @@ public class DetermineFiniteDecimal {
     public static void main(String[] args) {
         DetermineFiniteDecimal dfd = new DetermineFiniteDecimal();
 
-        System.out.println("result 1: " + dfd.solution(7, 20)); // 1
-        System.out.println("result 2: " + dfd.solution(11, 22)); // 1
-        System.out.println("result 3: " + dfd.solution(12, 21)); // 2
+        System.out.println(dfd.solution(7, 20)); // 1
+        System.out.println(dfd.solution(11, 22)); // 1
+        System.out.println(dfd.solution(12, 21)); // 2
     }
 
 }

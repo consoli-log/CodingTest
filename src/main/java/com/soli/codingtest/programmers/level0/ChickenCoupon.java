@@ -34,6 +34,7 @@ public class ChickenCoupon {
 
     public static void main(String[] args) {
         ChickenCoupon cc = new ChickenCoupon();
+
         System.out.println(cc.solution(100)); // 11
         System.out.println(cc.solution(1081)); // 120
     }

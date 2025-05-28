@@ -29,8 +29,8 @@ public class CurseNumberThree {
     public static void main(String[] args) {
         CurseNumberThree cnt = new CurseNumberThree();
 
-        System.out.println("n 1: " + cnt.solution(15)); // 25
-        System.out.println("n 2: " + cnt.solution(40)); // 76
+        System.out.println(cnt.solution(15)); // 25
+        System.out.println(cnt.solution(40)); // 76
     }
 
 }

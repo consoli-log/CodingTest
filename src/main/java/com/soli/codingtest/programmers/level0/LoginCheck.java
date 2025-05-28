@@ -36,19 +36,10 @@ public class LoginCheck {
     public static void main(String[] args) {
         LoginCheck lc = new LoginCheck();
 
-        String[] id_pw1 = {"meosseugi", "1234"};
-        String[][] db1 = { {"rardss", "123"}, {"yyoom", "1234"}, {"meosseugi", "1234"}};
-        String[] id_pw2 = {"programmer01", "15789"};
-        String[][] db2 = { {"programmer02", "111111"}, {"programmer00", "134"}, {"programmer01", "1145"}};
-        String[] id_pw3 = {"rabbit04", "98761"};
-        String[][] db3 = { {"jaja11", "98761"}, {"krong0313", "29440"}, {"rabbit00", "111333"}};
-        String[] id_pw4 = {"abc04", "345"};
-        String[][] db4 = { {"abc04", "335"}, {"abc03", "345"}};
-
-        System.out.println(lc.solution(id_pw1, db1)); // "login"
-        System.out.println(lc.solution(id_pw2, db2)); // "wrong pw"
-        System.out.println(lc.solution(id_pw3, db3)); // "fail"
-        System.out.println(lc.solution(id_pw4, db4)); // "wrong pw"
+        System.out.println(lc.solution(new String[] {"meosseugi", "1234"}, new String[][] {{"rardss", "123"}, {"yyoom", "1234"}, {"meosseugi", "1234"}})); // "login"
+        System.out.println(lc.solution(new String[] {"programmer01", "15789"}, new String[][] {{"programmer02", "111111"}, {"programmer00", "134"}, {"programmer01", "1145"}})); // "wrong pw"
+        System.out.println(lc.solution(new String[] {"rabbit04", "98761"}, new String[][] {{"jaja11", "98761"}, {"krong0313", "29440"}, {"rabbit00", "111333"}})); // "fail"
+        System.out.println(lc.solution(new String[] {"abc04", "345"}, new String[][] {{"abc04", "335"}, {"abc03", "345"}})); // "wrong pw"
     }
 }
 

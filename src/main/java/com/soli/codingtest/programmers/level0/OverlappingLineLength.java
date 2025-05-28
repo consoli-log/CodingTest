@@ -32,13 +32,10 @@ public class OverlappingLineLength {
 
     public static void main(String[] args) {
         OverlappingLineLength oll = new OverlappingLineLength();
-        int[][] input1 = {{0, 1}, {2, 5}, {3, 9}};
-        int[][] input2 = {{-1, 1}, {1, 3}, {3, 9}};
-        int[][] input3 = {{0, 5}, {3, 9}, {1, 10}};
 
-        System.out.println("result 1: " + oll.solution(input1)); // 2
-        System.out.println("result 2: " + oll.solution(input2)); // 0
-        System.out.println("result 2: " + oll.solution(input3)); // 8
+        System.out.println(oll.solution(new int[][] {{0, 1}, {2, 5}, {3, 9}})); // 2
+        System.out.println(oll.solution(new int[][] {{-1, 1}, {1, 3}, {3, 9}})); // 0
+        System.out.println(oll.solution(new int[][] {{0, 5}, {3, 9}, {1, 10}})); // 8
     }
 
 }

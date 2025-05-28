@@ -32,11 +32,9 @@ public class Babbling {
 
     public static void main(String[] args) {
         Babbling b = new Babbling();
-        String[] input1 = {"aya", "yee", "u", "maa", "wyeoo"};
-        String[] input2 = {"ayaye", "uuuma", "ye", "yemawoo", "ayaa"};
 
-        System.out.println(b.solution(input1)); // 1
-        System.out.println(b.solution(input2)); // 3
+        System.out.println(b.solution(new String[] {"aya", "yee", "u", "maa", "wyeoo"})); // 1
+        System.out.println(b.solution(new String[] {"ayaye", "uuuma", "ye", "yemawoo", "ayaa"})); // 3
     }
 }
 

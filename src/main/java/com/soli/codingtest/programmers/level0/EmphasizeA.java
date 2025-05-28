@@ -28,6 +28,7 @@ public class EmphasizeA {
 
     public static void main(String[] args) {
         EmphasizeA ea = new EmphasizeA();
+
         System.out.println(ea.solution("abstract algebra")); // AbstrAct AlgebrA
         System.out.println(ea.solution("PrOgRaMmErS")); // progrAmmers
     }
