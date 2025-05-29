@@ -25,6 +25,9 @@ public class StringPush {
             }
         }
         return count;
+
+//        return (B+B).indexOf(A);
+
     }
 
     public static void main(String[] args) {
