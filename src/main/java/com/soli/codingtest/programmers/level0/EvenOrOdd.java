@@ -17,9 +17,13 @@ public class EvenOrOdd {
 
         if (n % 2 == 0) {
             System.out.println(n + " is even");
+            // System.out.printf("%d is even", n);
         } else {
             System.out.println(n + " is odd");
+            // System.out.printf("%d is odd", n);
         }
+
+        // System.out.print(n + " is " + (n % 2 == 0 ? "even" : "odd"));
     }
 }
 
