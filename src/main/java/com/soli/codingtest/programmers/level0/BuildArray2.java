@@ -1,6 +1,7 @@
 package com.soli.codingtest.programmers.level0;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * 프로그래머스 - 배열 만들기 2
