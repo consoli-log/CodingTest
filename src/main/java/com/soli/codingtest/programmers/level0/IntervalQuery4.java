@@ -29,7 +29,7 @@ public class IntervalQuery4 {
     public static void main(String[] args) {
         IntervalQuery4 iq = new IntervalQuery4();
 
-        System.out.println(java.util.Arrays.toString(iq.solution(new int[]{0, 1, 2, 4, 3}, new int[][]{{0, 4, 1}, {0, 3, 2}, {0, 3, 3}}))); // [3, 2, 4, 6, 4]
+        System.out.println(Arrays.toString(iq.solution(new int[]{0, 1, 2, 4, 3}, new int[][]{{0, 4, 1}, {0, 3, 2}, {0, 3, 3}}))); // [3, 2, 4, 6, 4]
     }
 }
 
